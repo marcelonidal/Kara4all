@@ -11,7 +11,7 @@ $user = $_SESSION['user'];
 $userId = $user['U_ID'] ? $user['U_ID'] : null;
 $name = null;
 
-$categoria = $user['U_EMAIL'] == 'marcelonidal@gmail.com'? $_REQUEST['categoria'] : $_SESSION['categoria'];
+$categoria = $user['U_EMAIL'] == 'admin@mail.com'? $_REQUEST['categoria'] : $_SESSION['categoria'];
 $tipoId = null;
 $tipoArtist = null;
 $tipoTitle = null;
@@ -30,7 +30,7 @@ if($categoria == 'NAC'){
     $tipoTitle = 'I_MUSIC';
 }
 
-if($user['U_EMAIL'] == 'marcelonidal@gmail.com'){
+if($user['U_EMAIL'] == 'admin@mail.com'){
     //parametros = {'convidado': x, 'categoria': y, 'cod_musica': z};
     $codigo = $_REQUEST['cod_musica'];
     $categoria = $_REQUEST['categoria'];
