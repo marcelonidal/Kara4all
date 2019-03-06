@@ -20,7 +20,7 @@ $currentOrder = [];
 array_push($currentOrder, $id, $title, $artist, $category);
 
 if ($user && !empty($id && $title && $artist)) {
-    if ($user['U_EMAIL'] == 'marcelonidal@gmail.com') {
+    if ($user['U_EMAIL'] == 'admin@mail.com') {
         echo json_encode($currentOrder);
     } else if ($eventNow == true) {
         if (($_SESSION['isToday'] == true && $horaNow >= $_SESSION['horaIni']) || ($_SESSION['isToday'] == false && $horaNow <= $_SESSION['horaFim'])) {
