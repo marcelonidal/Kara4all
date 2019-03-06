@@ -185,7 +185,7 @@ $_SESSION['loginUrl'] = $loginUrl;
                     <div class="col-md-4" style="text-align: left">
                         <div class="heading-footer"><h2>Entre em contato</h2></div>
                         <address class="address-details-f">
-                            Email: <a href="mailto:contato@reviewsocial.com.br" class="">marcelonidaldj@gmail.com</a>
+                            Email: <a href="mailto:contato@reviewsocial.com.br" class="">admin@mail.com</a>
                         </address>
                         <br>
                     </div>
