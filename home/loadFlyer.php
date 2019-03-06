@@ -118,7 +118,7 @@ $_SESSION['eventoNow'] = $eventoNow;
                     $('#homeBtn').append('<button class="btn btn-white" id="btnAddQueueList">Acompanhar fila de músicas</button>');
                     $('#homeBtn').append('<button class="btn btn-white" id="btnAddEvent">Adicionar evento</button>');
                     $('#homeBtn').append('<button class="btn btn-white" id="btnAddSongList">Atualizar lista de músicas</button>');
-                    $('#homeBtn').append('<button class="btn btn-white" id="btnAddQueue">Adicionar música na fila</button>');
+                    //$('#homeBtn').append('<button class="btn btn-white" id="btnAddQueue">Adicionar música na fila</button>');
                 </script>
             <?php
             }else if (($user && $_SESSION['eventoNow'] == true) && (($_SESSION['isToday'] == true && $horaNow >= $_SESSION['horaIni']) || ($_SESSION['isToday'] == false && $horaNow <= $_SESSION['horaFim']))){
