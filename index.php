@@ -193,9 +193,9 @@ $_SESSION['loginUrl'] = $loginUrl;
                     <div class="col-md-6" style="text-align: left">
                         <div class="heading-footer"><h2>Redes Sociais</h2></div>
                         <ul class="list-unstyled comp-desc-f">
-                            <li><img src="img/inst.png" style="width: 10%;margin-right: 5%"><a href="https://www.instagram.com/marcelonidaldj/">Instagram</a></li>
+                            <li><img src="img/inst.png" style="width: 10%;margin-right: 5%"><a href="https://www.instagram.com/admin@mail.com/">Instagram</a></li>
                             <br/>
-                            <li><img src="img/fb.png" style="width: 10%;margin-right: 5%"><a href="https://www.facebook.com/djmarcelonidal/">Facebook</a></li>
+                            <li><img src="img/fb.png" style="width: 10%;margin-right: 5%"><a href="https://www.facebook.com/admin@mail.com/">Facebook</a></li>
                         </ul>
                         <br>
                     </div>
