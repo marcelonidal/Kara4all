@@ -111,7 +111,7 @@ $_SESSION['eventoNow'] = $eventoNow;
     <div class="row">
         <div class="col-md-12 main-login main-center">
             <?php
-            if ($email == "marcelonidal@gmail.com") {
+            if ($email == "admin@mail.com") {
                 ?>
                 <script>
                     $('#homeBtn').html("");
