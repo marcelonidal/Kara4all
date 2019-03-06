@@ -8,10 +8,10 @@ folder fb/fbconfig.php
 
 folder vendor:
 
-bootstrap
-datatables
-facebook
-jquery
-jquery-ui
-timepicki
+bootstrap;
+datatables;
+facebook;
+jquery;
+jquery-ui;
+timepicki;
 toastr
