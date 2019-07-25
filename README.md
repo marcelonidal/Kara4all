@@ -1,17 +1,27 @@
-# kara4all
-Web app to order in karaoke
+# Kara4all
 
-Add config for database and facebook:
+# Aplicao Web para criar lista de pedidos no karaoke
 
-folder db/dbconnection.php
-folder fb/fbconfig.php
+Adicione as configuracoes no banco de dados e facebook:
 
-folder vendor:
+pasta db/dbconnection.php
+
+pasta fb/fbconfig.php
+
+# Dependencias:
+
+pasta vendor:
 
 bootstrap;
+
 datatables;
+
 facebook;
+
 jquery;
+
 jquery-ui;
+
 timepicki;
+
 toastr
